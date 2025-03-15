@@ -1,9 +1,10 @@
 #include <stdio.h>
-int biggest2()
+
+biggest2()
 {
     int num1, num2;
     // Ask user to enter the two numbers
-    printf("Please Enter Two different values\n");
+    printf("Enter two integers:");
     // Read two numbers from the user
     scanf("%d %d", &num1, &num2);
     if(num1 > num2)
